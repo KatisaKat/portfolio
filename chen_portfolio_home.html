@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<!-- created by Katherine Chen on 11/19/2024 -->
+    	<meta charset="UTF-8">
+    	<title>Katherine Chen Portfolio Home</title>
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="chen_portfolio_style.css">
+    
+    	<style>
+    	/* flexbox is used in this css */
+		  html {
+		  	scroll-behavior: smooth;
+		  }
+		  
+		  body {
+			color: white;
+			background-color: #131313;
+		  }
+	  
+		  #header-text {
+			float: left;
+			padding: 200px 15%;
+			font-size: 20px;
+		  }
+		  
+		  #underline {
+		  	position: absolute;
+			top: 302px;
+			left: 14.5%;
+			width: 371px;
+			height: 28px;
+			background: #1E31FA;
+			z-index: -1;
+		  }
+	  
+		  #vector-img {
+			padding: 215px 0px 0px 10px;
+		  }
+	  
+		  #about-us {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			box-sizing: border-box;
+			background-color: #131313;
+			height: 100vh;
+			padding: 20px;
+			margin-bottom: 20px;
+			clear: both;
+		  }
+	  
+		  #portrait {
+			width: 30%;
+			z-index: 1;
+		  }
+	  
+		  #about {
+			position: absolute;
+			bottom: 59%;
+			left: 20%;
+			font-size: 150px;
+			z-index: 2;
+		  }
+	  
+		  #about-text, #about-text2 {
+			position: relative;
+			font-size: 15px;
+			max-width: 600px;
+			z-index: 1;
+		  }
+	  
+		  #about-text {
+			top: 200px;
+			left: 500px;
+			text-align: left;
+		  }
+	  
+		  #about-text2 {
+			bottom: 225px;
+			right: 500px;
+			text-align: right;
+		  }
+	  
+		  #me {
+			position: absolute;
+			top: 50%;
+			right: 25%;
+			font-size: 200px;
+			z-index: 2;
+		  }
+	  
+		  #circ {
+			position: absolute;
+			top: 45%;
+			right: 22%;
+			z-index: 0;
+		  }
+		</style>
+	</head>
+	
+	<body>
+		<div id="header">
+		  <div id="nav">
+			<h1>KAT.C</h1>
+			<ul>
+			  <li><a href="chen_portfolio_home.html"><u>Home</u></a></li>
+			  <li><a href="chen_portfolio_home.html#about-us">About</a></li>
+			  <li><a href="chen_portfolio_projects.html">Projects</a></li>
+			</ul>
+			<div class="contact"><a href="chen_portfolio_contact.html">Contact Me</a></div>
+		  </div>
+		</div>
+		<div id="header-text">
+		  <div id="underline"></div>
+		  <h1>Hello <br> I’m Katherine Chen</h1>
+			  Committed to delivering reliable, high-quality work<br> 
+			  quickly. Here to ensure your projects meet the highest<br> 
+			  standards and deadlines.<br><br>
+		  <div class="contact"><a href="chen_portfolio_contact.html">Contact Me</a></div>
+		</div>
+		<img id="vector-img" src="Avatar.png" alt="Vector image of me" width="300" height="100%">
+	
+	
+		<div id="about-us">
+			<h1 id="about">ABOUT</h1>
+			<p id="about-text">Hi! I’m Katherine Chen, a Chinese-Canadian <br>
+			studying at the <strong>University of Waterloo’s</strong><br>
+			Stratford School of Interaction Design and <br>
+			Business. Majoring in Global Business and <br>
+			tal Arts, minoring in Computer Science, I <br>
+			aim to make collaborations more seamless. </p>
+			<img id="portrait" src="Portrait.png" alt="Self portait of me smiling" width="35%" height="100%">
+			<p id="about-text2">Using applications like Figma, Procreate, <br>
+			and Adobe, I work to create inventive designs. <br>
+			I am also proficient in Java, Racket, and <br>
+			Python. From raising awareness for nonprofit <br>
+			to designing new organizational strategies for <br>
+			medical catalogues, <strong>I design it all.</strong> </p>
+			<h1 id="me">ME</h1>
+			<svg id="circ" height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+			  <circle r="150" cx="250" cy="250" fill="#1E31FA" />
+			</svg>
+		</div>
+	
+		<div id="social-media">
+		  <a href="https://www.instagram.com/kat_is_a_kat/" target="_blank">
+		  <img src="instagram.png" alt="Instagram mini logo" width="50" height="50"></a>
+		  <a href="https://www.linkedin.com/in/katherine-chen-024746290/" target="_blank">
+		  <img src="linkedin.png" alt="LinkedIn mini logo" width="50" height="50"></a>
+		  <a href="https://www.facebook.com/profile.php?id=61559752762642" target="_blank">
+		  <img src="facebook.png" alt="Facebook mini logo" width="50" height="50"></a>
+		</div>
+	</body>
+</html>

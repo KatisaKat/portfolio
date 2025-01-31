@@ -1,0 +1,79 @@
+body {
+	font-family: 'Instrument Sans';
+	margin: 0;
+	padding: 0;
+}
+      
+h1 {
+	font-weight: 500;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #131313;
+	z-index: 10;
+}
+
+#nav {
+	padding: 0px 3%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between	;
+	flex-wrap: wrap;
+	color: white;
+}
+
+#nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	left: -7px;
+	margin: 20px 20px;
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+
+#nav li a:hover {
+	color: #1E31FA;
+}
+
+.contact {
+	background-color: #1E31FA;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+}
+
+.contact a {
+	text-decoration: none;
+	color: white;
+}
+
+#social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	background-color: #131313;
+	width: 100%;
+	height: 150px;
+	clear: both;
+}
+
+#social-media img {
+	opacity: 0.5;
+}
